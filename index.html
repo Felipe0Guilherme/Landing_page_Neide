@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dra. Dalvoneide da Silva - Ortodontista</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Botão Flutuante WhatsApp -->
+  <a href="https://wa.me/5511999999999?text=Olá! Gostaria de agendar uma avaliação ortodôntica."
+     target="_blank"
+     rel="noopener noreferrer"
+     class="whatsapp-float"
+     aria-label="WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+    </svg>
+  </a>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-background">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+    </div>
+
+    <div class="container hero-content">
+      <h1 class="hero-title fade-in">
+        Transforme seu sorriso
+        <span class="gradient-text">com confiança!</span>
+      </h1>
+
+      <p class="hero-subtitle fade-in-delay-1">
+        Tratamentos modernos de ortodontia com conforto, tecnologia e cuidado humano.
+      </p>
+
+      <button class="cta-button fade-in-delay-2" onclick="openWhatsApp()">
+        Agendar Avaliação
+      </button>
+
+      <div class="hero-emoji fade-in-delay-3">😁</div>
+    </div>
+
+    <div class="scroll-indicator" onclick="scrollToSection('sobre')">
+      <p>Role para descobrir</p>
+      <div class="mouse">
+        <div class="mouse-wheel"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre a Dentista -->
+  <section id="sobre" class="section-about">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Conheça a Dra. Dalvoneide da Silva</h2>
+
+      <div class="doctor-avatar animate-on-scroll">👩‍⚕️</div>
+
+      <p class="doctor-quote animate-on-scroll">
+        "Cuidar do seu sorriso é mais do que estética, é autoestima!"
+      </p>
+
+      <div class="features-grid">
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon">🎓</div>
+          <h3>Experiência na Área</h3>
+          <p>Anos de dedicação ao estudo e prática da ortodontia moderna.</p>
+        </div>
+
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon">💚</div>
+          <h3>Atendimento Humanizado</h3>
+          <p>Cada paciente é único e merece atenção especial.</p>
+        </div>
+
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon">✨</div>
+          <h3>Resultados Naturais</h3>
+          <p>Foco em sorrisos bonitos, saudáveis e harmoniosos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="section-services">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Nossos Serviços</h2>
+      <p class="section-subtitle animate-on-scroll">Soluções personalizadas para cada tipo de sorriso</p>
+
+      <div class="services-grid">
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+            </svg>
+          </div>
+          <h3>Aparelho Fixo</h3>
+          <p>Tratamento tradicional e eficaz para alinhamento dental completo.</p>
+        </div>
+
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+              <line x1="9" y1="9" x2="9.01" y2="9"></line>
+              <line x1="15" y1="9" x2="15.01" y2="9"></line>
+            </svg>
+          </div>
+          <h3>Aparelho Estético</h3>
+          <p>Discreção e elegância com brackets transparentes ou da cor dos dentes.</p>
+        </div>
+
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+          </div>
+          <h3>Alinhadores Invisíveis</h3>
+          <p>Tecnologia moderna para correção dental quase imperceptível.</p>
+        </div>
+
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
+            </svg>
+          </div>
+          <h3>Manutenção Ortodôntica</h3>
+          <p>Acompanhamento contínuo para garantir resultados duradouros.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Benefícios -->
+  <section id="beneficios" class="section-benefits">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Por que fazer ortodontia?</h2>
+
+      <div class="benefits-grid">
+        <div class="benefit-item animate-on-scroll">
+          <div class="benefit-emoji">😁</div>
+          <p>Sorriso mais bonito e alinhado</p>
+        </div>
+
+        <div class="benefit-item animate-on-scroll">
+          <div class="benefit-emoji">💬</div>
+          <p>Mais confiança ao falar e sorrir</p>
+        </div>
+
+        <div class="benefit-item animate-on-scroll">
+          <div class="benefit-emoji">🦷</div>
+          <p>Saúde bucal melhorada</p>
+        </div>
+
+        <div class="benefit-item animate-on-scroll">
+          <div class="benefit-emoji">⚡</div>
+          <p>Tratamentos modernos e eficientes</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Antes e Depois -->
+  <section id="antes-depois" class="section-before-after">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Resultados Transformadores</h2>
+      <p class="section-subtitle animate-on-scroll">Arraste para ver a diferença</p>
+
+      <div class="before-after-container animate-on-scroll">
+        <div class="before-after-wrapper">
+          <div class="before-image">
+            <div class="image-content">
+              <div class="emoji-large">😐</div>
+              <p class="image-label">ANTES</p>
+            </div>
+          </div>
+
+          <div class="after-image" id="afterImage">
+            <div class="image-content">
+              <div class="emoji-large">😁</div>
+              <p class="image-label">DEPOIS</p>
+            </div>
+          </div>
+
+          <div class="slider-line" id="sliderLine">
+            <div class="slider-button">
+              <svg class="chevron-left" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+              <svg class="chevron-right" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </div>
+          </div>
+
+          <input type="range" min="0" max="100" value="50" class="slider-input" id="beforeAfterSlider">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section id="depoimentos" class="section-testimonials">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">O que dizem nossos pacientes</h2>
+      <p class="section-subtitle animate-on-scroll">Histórias reais de transformação</p>
+
+      <div class="testimonials-carousel animate-on-scroll">
+        <button class="carousel-nav prev" onclick="changeTestimonial(-1)" aria-label="Anterior">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+        </button>
+
+        <div class="testimonial-track" id="testimonialTrack">
+          <div class="testimonial-card active">
+            <div class="testimonial-avatar">😊</div>
+            <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-text">"Eu tinha vergonha de sorrir, hoje não paro mais! A Dra. Dalvoneide transformou minha autoestima."</p>
+            <p class="testimonial-author">Maria Santos</p>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-avatar">😊</div>
+            <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-text">"Atendimento impecável e resultados incríveis. Recomendo de olhos fechados!"</p>
+            <p class="testimonial-author">João Silva</p>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-avatar">😊</div>
+            <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-text">"Profissional dedicada e atenciosa. Fez todo o processo ser tranquilo e confortável."</p>
+            <p class="testimonial-author">Ana Paula</p>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-avatar">😊</div>
+            <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-text">"Melhor investimento que já fiz! Meu sorriso está perfeito graças à ortodontia."</p>
+            <p class="testimonial-author">Carlos Eduardo</p>
+          </div>
+        </div>
+
+        <button class="carousel-nav next" onclick="changeTestimonial(1)" aria-label="Próximo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </div>
+
+      <div class="carousel-dots" id="carouselDots">
+        <span class="dot active" onclick="goToTestimonial(0)"></span>
+        <span class="dot" onclick="goToTestimonial(1)"></span>
+        <span class="dot" onclick="goToTestimonial(2)"></span>
+        <span class="dot" onclick="goToTestimonial(3)"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Forte -->
+  <section class="section-cta">
+    <div class="container cta-content">
+      <h2 class="cta-title animate-on-scroll">Seu novo sorriso começa hoje!</h2>
+      <p class="cta-subtitle animate-on-scroll">Não espere mais para ter o sorriso dos seus sonhos</p>
+      <button class="cta-button-large animate-on-scroll" onclick="openWhatsApp()">
+        Agendar Consulta no WhatsApp
+      </button>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="section-contact">
+    <div class="container">
+      <h2 class="section-title animate-on-scroll">Entre em Contato</h2>
+      <p class="section-subtitle animate-on-scroll">Estamos prontos para atender você!</p>
+
+      <div class="contact-grid">
+        <div class="contact-card animate-on-scroll">
+          <div class="contact-icon whatsapp-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+            </svg>
+          </div>
+          <h3>WhatsApp</h3>
+          <p>Agende sua consulta agora mesmo!</p>
+          <a href="https://wa.me/5511999999999" target="_blank">(11) 99999-9999</a>
+        </div>
+
+        <div class="contact-card animate-on-scroll">
+          <div class="contact-icon phone-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+            </svg>
+          </div>
+          <h3>Telefone</h3>
+          <p>Ligue para agendar</p>
+          <a href="tel:+5511333344444">(11) 3333-4444</a>
+        </div>
+
+        <div class="contact-card animate-on-scroll">
+          <div class="contact-icon location-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+          </div>
+          <h3>Endereço</h3>
+          <p>Rua embiruçu, 678<br>Vila matilde- São Paulo/SP<br>CEP: </p>
+        </div>
+
+        <div class="contact-card animate-on-scroll">
+          <div class="contact-icon clock-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+          </div>
+          <h3>Horário de Atendimento</h3>
+          <p>Segunda a Sexta: 8h às 18h<br>Sábado: 8h às 12h</p>
+        </div>
+      </div>
+
+      <div class="map-container animate-on-scroll">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.090378491136!2d-46.53526852435062!3d-23.52925156041384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5e3efa2d8c7d%3A0x52eb433d02a43447!2sR.%20Embiru%C3%A7%C3%BA%2C%20678%20-%20Vila%20Beatriz%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003644-000!5e0!3m2!1spt-BR!2sbr!4v1773833134654!5m2!1spt-BR!2sbr"
+          width="100%"
+          height="400"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          title="Localização do consultório">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-emoji">😁</div>
+      <h3>Dra. Dalvoneide da Silva</h3>
+      <p>Ortodontista - CRO-SP 12345</p>
+      <p class="footer-copy">© 2026 Todos os direitos reservados. Desenvolvido com ❤️</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
